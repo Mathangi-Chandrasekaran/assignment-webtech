@@ -1,0 +1,41 @@
+body {
+    background-image: linear-gradient(#B3F6D8, #52A7C1);
+    height: 1300px
+}
+
+#header-align {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: x-large;
+    padding-top: 50px;
+    padding-left: 25px;
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    /* padding: 5px; */
+    padding-left: 50px;
+    padding-top: 65px;
+    padding-right: 50px;
+}
+
+.card-text {
+    padding-left: 10px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+#card-3 {
+    padding-left: 300px;
+    padding-right: 300px;
+    align-items: center;
+}
