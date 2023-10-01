@@ -1,0 +1,19 @@
+     #box {
+          width: 600px;
+          height: 400px;
+          padding: 10px;
+          border: 1px solid black;
+          /* margin-top: 10px;
+          margin-left: 350px; */
+          margin: auto;
+          box-shadow: 10px 10px 5px grey;
+          padding-top: 30px;
+          padding-left: 35px;
+        }
+        #bg-grad {
+            height: 700px;
+  background-image: linear-gradient(#66B5F6,#BFE299);
+}
+    #tx-al{
+        text-align: right;
+    }
