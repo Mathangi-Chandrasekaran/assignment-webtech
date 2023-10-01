@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiabCare</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="donate.css">
+</head>
+
+<body id="bg-grad">
+    <!--Header section-->
+    <img src="https://www.contactspace.com/wp-content/uploads/making-a-donation-min-scaled.jpeg" alt="index-banner"
+        height="300px" width="100%" id="img1">
+    <h2 style="text-align: center;" class="pos">Your Little Contribution Makes A Difference</h2>
+    <br><br>
+    <h3 class="align" style="text-align: center;"> With your generous support, we provide hope and healthcare support to those who need it. </h3>
+    <br><br>
+
+    <!--Range Slider-->
+    <div class="slider-text" >
+        <label for="myRange"> Monthly Goal</label>
+        <br>
+        <input type="range" min="1" max="100" value="15" id="myRange" class="slider">
+      </div>
+      <br><br>
+
+    <div id="box">
+        <!--form elements-->
+        <form>
+            <table>
+                <tr>
+                    <td style="text-align: center; padding-left: 250px;">
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons" style="padding-top: 50px;">
+                            <label class="btn btn-color mb-3">
+                                <input type="radio" name="options" id="option1" autocomplete="off"> Give Once
+                            </label>
+                            <label class="btn btn-color mb-3">
+                                <input type="radio" name="options" id="option2" autocomplete="off"> Give Monthly
+                            </label>
+                            <label class="btn btn-color mb-3">
+                                <input type="radio" name="options" id="option3" autocomplete="off"> Give Yearly
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;padding-left: 200px;">
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-color1 btn-sm-12">
+                                <input type="radio" name="options" id="option1" autocomplete="off"> $50
+                            </label>
+                            <label class="btn btn-color1 btn-sm-12">
+                                <input type="radio" name="options" id="option2" autocomplete="off"> $100
+                            </label>
+                            <label class="btn btn-color1 btn-sm-12">
+                                <input type="radio" name="options" id="option3" autocomplete="off"> $250
+                            </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;padding-left: 250px;">
+                        <div class="form-group row">
+                            <label for="amount" class="col-sm-8 col-form-label">Custom Donation Amount</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="Name" placeholder="Enter Custom Amount">
+                            </div>
+                        </div><br>
+    </div>
+    </td>
+    </tr>
+    <th>
+        <h5>Enter Your Information</h5>
+    </th>
+    <tr>
+        <td style="text-align: center; padding-left: 250px;">
+            <div class="col-md-8 mb-3">
+                <label for="fname">First name</label>
+                <input type="text" class="form-control" id="fname" placeholder="First name" required>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center; padding-left: 250px;">
+            <div class="col-md-8 mb-3">
+                <label for="lname">Last name</label>
+                <input type="text" class="form-control" id="lname" placeholder="Last name" required>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center; padding-left: 250px;">
+            <div class="col-md-8 mb-3">
+                <label for="address" class="col-sm-5 col-form-label">Address</label>
+                <input type="text" class="form-control" id="address" placeholder="Address" required>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center; padding-left: 250px;">
+            <div class="col-md-8 mb-3">
+                <label for="city">City</label>
+                <input type="text" class="form-control" id="city" placeholder="City" required>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center; padding-left: 250px;">
+            <div class="col-md-8 mb-3">
+                <label for="country">Country</label>
+                <input type="text" class="form-control" id="country" placeholder="Country" required>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center; padding-left: 250px;">
+            <div class="col-md-8 mb-3">
+                <label for="postalCode">Zip</label>
+                <input type="text" class="form-control" id="postalCode" placeholder="Postal Code" required>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center; padding-left: 250px;">
+            <div class="col-md-8 mb-3">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="number" min="0" maxlength="10" class="form-control" id="phoneNumber"
+                    placeholder="Phone Number" required>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center; padding-left: 250px;">
+            <div class="col-md-8 mb-3">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email Id" required>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center; padding-left: 250px;">
+            <div class="col-md-8 mb-3">
+                <label for="message">Enter Your Message</label>
+                <textarea rows="8" class="form-control" id="message" placeholder="Enter text here..."></textarea>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;padding-left: 150px;">
+            <input type="checkbox" class="form-check-input" id="checkbox1">
+            <label class="form-check-label" for="checkbox1">Give in memory or honour of someone</label>
+        </td>
+    </tr>
+    </table>
+
+    <!--table for card info-->
+    <table>
+        <th>
+            <h5> Card Information </h5>
+        </th>
+        <tr>
+            <td style="text-align: center;">
+                <img src="https://user-images.githubusercontent.com/52581/44384465-5e312780-a570-11e8-9336-7b54978a9e64.png"
+                    alt="payment options" height="50px"><br><br>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;padding-left: 60px;">
+                <div class="col-md-11 mb-3">
+                    <label for="cardNo">Card Number</label>
+                    <input type="number" min="0" class="form-control" placeholder="Card No." required>
+                </div>
+            </td>
+            <td>
+                <div style="padding-top: 25px;">
+                    <label for="cardNo">Expiry Date</label>
+                    <select name="month" id="month" required>
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                        <option value="5">05</option>
+                        <option value="6">06</option>
+                        <option value="7">07</option>
+                        <option value="8">08</option>
+                        <option value="9" selected="selected">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+
+                    <select name="year" id="year" required>
+                        <option value="2023" selected="selected">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        <option value="2029">2029</option>
+                        <option value="2030">2030</option>
+                        <option value="2031">2031</option>
+                        <option value="2032">2032</option>
+                        <option value="2033">2033</option>
+                    </select>
+                </div>
+            </td>
+            <td>
+                <div style="padding-left: 35px;text-align: center;padding-right: 10px;">
+                    <label for="cvv">CVV Number</label>
+                    <input type="number" min="0" maxlength="3" class="form-control" id="cvv" required>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;padding-top: 50px;">
+                <button type="button" class="btn btn-success btn-lg">DONATE</button>
+            </td>
+        </tr>
+    </table>
+    </form>
+    </div>
+</body>
+
+</html>
