@@ -35,13 +35,13 @@
                     <td style="text-align: center; padding-left: 250px;">
                         <div class="btn-group btn-group-toggle" data-toggle="buttons" style="padding-top: 50px;">
                             <label class="btn btn-color mb-3">
-                                <input type="radio" name="options" id="option1" autocomplete="off"> Give Once
+                                <input type="radio" name="options" id="option1"> Give Once
                             </label>
                             <label class="btn btn-color mb-3">
-                                <input type="radio" name="options" id="option2" autocomplete="off"> Give Monthly
+                                <input type="radio" name="options" id="option2"> Give Monthly
                             </label>
                             <label class="btn btn-color mb-3">
-                                <input type="radio" name="options" id="option3" autocomplete="off"> Give Yearly
+                                <input type="radio" name="options" id="option3"> Give Yearly
                             </label>
                         </div>
                     </td>
@@ -50,14 +50,15 @@
                     <td style="text-align: center;padding-left: 200px;">
                         <div class="btn-group btn-group-toggle" data-toggle="buttons">
                             <label class="btn btn-color1 btn-sm-12">
-                                <input type="radio" name="options" id="option1" autocomplete="off"> $50
+                                <input type="radio" name="options" id="option4"> $50
                             </label>
                             <label class="btn btn-color1 btn-sm-12">
-                                <input type="radio" name="options" id="option2" autocomplete="off"> $100
+                                <input type="radio" name="options" id="option5"> $100
                             </label>
                             <label class="btn btn-color1 btn-sm-12">
-                                <input type="radio" name="options" id="option3" autocomplete="off"> $250
+                                <input type="radio" name="options" id="option6"> $250
                             </label>
+                        </div>
                     </td>
                 </tr>
                 <tr>
@@ -68,7 +69,6 @@
                                 <input type="text" class="form-control" id="Name" placeholder="Enter Custom Amount">
                             </div>
                         </div><br>
-    </div>
     </td>
     </tr>
     <th>
@@ -126,7 +126,7 @@
         <td style="text-align: center; padding-left: 250px;">
             <div class="col-md-8 mb-3">
                 <label for="phoneNumber">Phone Number</label>
-                <input type="number" min="0" maxlength="10" class="form-control" id="phoneNumber"
+                <input type="number" min="0" class="form-control" id="phoneNumber"
                     placeholder="Phone Number" required>
             </div>
         </td>
@@ -170,13 +170,13 @@
             <td style="text-align: center;padding-left: 60px;">
                 <div class="col-md-11 mb-3">
                     <label for="cardNo">Card Number</label>
-                    <input type="number" min="0" class="form-control" placeholder="Card No." required>
+                    <input type="number" min="0" class="form-control" id="cardNo" placeholder="Card No." required>
                 </div>
             </td>
             <td>
                 <div style="padding-top: 25px;">
-                    <label for="cardNo">Expiry Date</label>
-                    <select name="month" id="month" required>
+                    <label for="expDate" size="12">Expiry Date</label>
+                    <select name="month" id="expDate" required>
                         <option value="1">01</option>
                         <option value="2">02</option>
                         <option value="3">03</option>
@@ -191,7 +191,7 @@
                         <option value="12">12</option>
                     </select>
 
-                    <select name="year" id="year" required>
+                    <select name="year" id="expDate" required>
                         <option value="2023" selected="selected">2023</option>
                         <option value="2024">2024</option>
                         <option value="2025">2025</option>
@@ -203,13 +203,15 @@
                         <option value="2031">2031</option>
                         <option value="2032">2032</option>
                         <option value="2033">2033</option>
+                        <option value="2033">2034</option>
+                        <option value="2033">2035</option>
                     </select>
                 </div>
             </td>
             <td>
                 <div style="padding-left: 35px;text-align: center;padding-right: 10px;">
                     <label for="cvv">CVV Number</label>
-                    <input type="number" min="0" maxlength="3" class="form-control" id="cvv" required>
+                    <input type="number" min="0" class="form-control" id="cvv" required>
                 </div>
             </td>
         </tr>
